@@ -3,7 +3,7 @@ import Card from "../common/card/Card";
 import StyledBox from "../common/box/StyledBox";
 
 const Greeting = () => {
-  const name = "Taem";
+  const name = "Taewon";
   return (
     <Stack alignItems="center" sx={{ py: 2 }}>
       <Typography variant="h3" component="h1" gutterBottom>
