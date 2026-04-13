@@ -6,8 +6,12 @@ import { MyThemeContext } from "../context/MyThemeContext";
 import { AlertContext } from "../context/AlertContext";
 
 const Greeting = () => {
+<<<<<<< HEAD
   const { theme } = useContext(MyThemeContext);
   const name = "Taem";
+=======
+  const name = "Taewon";
+>>>>>>> cd0d0115661fa3676709b01361e44e2630df6900
   return (
     <Stack alignItems="center" sx={{ py: 2 }}>
       <Typography variant="h3" component="h1" gutterBottom>
